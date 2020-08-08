@@ -18,5 +18,8 @@
   "extends": ["standard", "standard-jsx"],
   "rules": {
     "strict": 0
+  },
+  "env": {
+    "jest": true
   }
 }

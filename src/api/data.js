@@ -1,3 +1,5 @@
+// This can be hard-coded and served by Redux
+
 function data () {
   return {
     mattresses: {
