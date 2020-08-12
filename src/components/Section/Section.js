@@ -15,7 +15,7 @@ function Section ({ setMattressCount, mattressCount }) {
       <div className='tile is-ancestor'>
         <div className='tile is-vertical is-8'>
           <div className='tile is-child box'>
-            <Image filename={selectedMattress.imageFileName} />
+              <Image selectedMattress={selectedMattress} />
           </div>
         </div>
         <div className='tile is-parent'>
